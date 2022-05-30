@@ -46,7 +46,7 @@ def ModuleB1():
 def ModuleC1():
 	input_text = input_option()
 	if input_text != "":
-		result = input_text.isdigit()
+		result = input_text.replace(".","",1).isdigit()
 		if result == True:
 			output_text = "The given string is a valid number"
 			print(output_text)
