@@ -5,8 +5,8 @@ def ModuleA1(module_output):
 	print("1: Convert a string to upper case")
 	print("2: Convert a string to lower case")
 	selection_input = input()
-	if(!selection_input.isdigit()):
-		print("Please enter digit number")
+	if(not selection_input.isdigit()):
+		print("Please enter a valid digit number!")
 		return
 	
 	if module_output == "":
@@ -93,6 +93,9 @@ def input_option():
 	print("1: Input with keyboard")
 	print("2: Input with text file")
 	input_method = input()
+	if not input_method.isdigit():
+		print("Please enter a valid digit number")
+		return
 	input_text = ""
 	if int(input_method) == 1:
 		print("Please enter a string:")
@@ -112,16 +115,18 @@ print("4: Remove any numeric values in a given string and then convert the strin
 
 print("Select?:")
 select_func = input()
-
-if int(select_func) == 1:
-	ModuleA1("")
-elif int(select_func) == 2:
-	ModuleB1()
-elif int(select_func) == 3:
-	ModuleC1()
-elif int(select_func) == 4:
-	module_output = ModuleD1()
-	ModuleA1(module_output)
+if not select_func.isdigit():
+	print("Please enter a valid digit number!")
 else:
-	print("Please select a valid Number!")
+	if int(select_func) == 1:
+		ModuleA1("")
+	elif int(select_func) == 2:
+		ModuleB1()
+	elif int(select_func) == 3:
+		ModuleC1()
+	elif int(select_func) == 4:
+		module_output = ModuleD1()
+		ModuleA1(module_output)
+	else:
+		print("Please select a valid Number!")
 
