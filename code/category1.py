@@ -25,16 +25,29 @@ def ModuleA1():
 		print("The Lower-case of {0} is {1}".format(input_text,output_text)) 
 	else:
 		print("Please select available selection!")
+		output_text = ""
+		
+	ModuleF1(output_text)
 
 #Module E1
 #Function: Input value with a text file
 def ModuleE1():
 	try:
-		f=open("../document/InCategory1.txt")
+		f=open("../document/inCategory1.txt","r")
 		input_text = f.read()
 		return input_text
 	finally:
 		f.close()
+
+#Module F1
+#Function: Output value to a text file
+def ModuleF1(output_text):
+	try:
+		f=open("../document/outCategory1.txt","w")
+		f.write(output_text)		
+	finally:
+		f.close()
+
 #main_part
 ModuleA1()
 
