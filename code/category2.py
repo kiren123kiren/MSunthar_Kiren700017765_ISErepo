@@ -1,7 +1,7 @@
 #Module A2
 #Function: Converting a number given in hours to minutes
 def ModuleA2():
-	print("Please enter hours that needed to convert to minutes: ")
+	output_file = open("../document/outCategory2.txt","w")
 	for input_text in ModuleE2():
 		input_text = input_text.rstrip('\n')
 		if not input_text.replace(".","",1).isdigit():
@@ -9,7 +9,10 @@ def ModuleA2():
 			return
 		else:
 			result = float(input_text) * 60
+			output_file.write(str(result)+"\n")
+			firstLoop = False
 			print("{0} hours => {1} minutes".format(input_text,result))
+	output_file.close()
 
 #Module E2
 #Function: Input value with a text file
