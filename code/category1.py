@@ -86,7 +86,7 @@ def ModuleE1():
 	try:
 		f=open("../document/inCategory1.txt","r")
 		input_text = f.read()
-		return input_text
+		return input_text.rstrip('\n')
 	finally:
 		f.close()
 
