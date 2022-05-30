@@ -103,6 +103,7 @@ def ModuleF1(output_text):
 print("Please select function that wanted to perform:")
 print("1: Converting a string to upper case or lower case")
 print("2: Identify whether numeric values are in a given string")
+print("3: Identify whether a given string is a valid number or not")
 
 print("Select?:")
 select_func = input()
@@ -111,6 +112,8 @@ if int(select_func) == 1:
 	ModuleA1()
 elif int(select_func) ==2:
 	ModuleB1()
+elif int(select_func) ==3:
+	ModuleC1()
 else:
 	print("Please select a valid Number!")
 
