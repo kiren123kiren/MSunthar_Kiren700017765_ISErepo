@@ -1,12 +1,13 @@
+
 #Module A1
 #Function: Converting a string to upper case or lower case
 def ModuleA1():
-	print("Convert a string to upper case, Press 1")
-	print("Convert a string to lower case, Press 2")
+	print("1: Convert a string to upper case")
+	print("2: Convert a string to lower case")
 	selection_input = input()
 
-	print("Input with keyboard, Press 1")
-	print("Input with text file, Press 2")
+	print("1: Input with keyboard")
+	print("2: Input with text file")
 	input_method = input()
 
 	if int(input_method) == 1:
@@ -29,6 +30,56 @@ def ModuleA1():
 		
 	ModuleF1(output_text)
 
+#Module B1
+#Function: Identify whether numeric values are in a given string
+def ModuleB1():
+	print("1: Input with keyboard")
+	print("2: Input with text file")	
+	input_method = input()
+	
+	if int(input_method) == 1:
+		print("Please enter a string:")
+		input_text = input()
+	elif int(input_method) == 2:
+		input_text = ModuleE1()
+	else:
+		print("Please enter a valid selection")
+	
+	
+	result = any(map(str.isdigit,input_text))
+	if result == True:
+		output_text = "The given string contain numeric values"
+		print(output_text)
+	else:
+		output_text = "The given string DOES NOT contain numeric values"
+		print(output_text)
+	ModuleF1(output_text)
+
+#Module C1
+#Function: Identify whether a given string is a valid number or not
+def ModuleC1():
+	print("1: Input with keyboard")
+	print("2: Input with text file")
+	input_method = input()
+
+	if int(input_method) == 1:
+		print("Please enter a string:")
+		input_text = input()
+	elif int(input_method) == 2:
+		input_text = ModuleE1()
+	else:
+		print("Please enter a valid selection")
+	
+	result = input_text.isdigit()
+	if result == True:
+		output_text = "The given string is a valid number"
+		print(output_text)
+	else:
+		output_text = "The given string is NOT a valid number"
+		print(output_text)
+	ModuleF1(output_text)
+
+
 #Module E1
 #Function: Input value with a text file
 def ModuleE1():
@@ -49,5 +100,17 @@ def ModuleF1(output_text):
 		f.close()
 
 #main_part
-ModuleA1()
+print("Please select function that wanted to perform:")
+print("1: Converting a string to upper case or lower case")
+print("2: Identify whether numeric values are in a given string")
+
+print("Select?:")
+select_func = input()
+
+if int(select_func) == 1:
+	ModuleA1()
+elif int(select_func) ==2:
+	ModuleB1()
+else:
+	print("Please select a valid Number!")
 
