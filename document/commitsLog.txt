@@ -1,0 +1,227 @@
+commit 527745c2fdd33ba521376d6d9997fec8e0ee7699
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:35:13 2022 +0800
+
+    Testing output text file with Module D2
+
+commit 451421fb98665caa0678dcfaed805ad8c93d72a3
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:34:23 2022 +0800
+
+    Created Module D2
+
+commit 82d16ff203d47b44201bd3653df9e0c0f40ed382
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:29:03 2022 +0800
+
+    Testing output text file with Module C2
+
+commit 74bcf7cdc9ea8363533e6c3fef90042cdee882a7
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:28:19 2022 +0800
+
+    Created ModuleC2
+
+commit 832aeb1f5d7c0eb3edd1f395b6c680921a912408
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:20:51 2022 +0800
+
+    Testing output text file with Module B2
+
+commit 4c329ea9225e76d00d9c0409e17166ea97af84bc
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 21:19:52 2022 +0800
+
+    Created ModuleB2 and able to round off decimal places for output
+
+commit 6658228ecf264ef3fb1a0c1631b0af9f491205e6
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 20:58:56 2022 +0800
+
+    Testing output text file with category 2 program
+
+commit 983ffdcd34e77719b69c5a94e693272b2c273fe0
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 20:57:56 2022 +0800
+
+    Eliminate output module and replace with simple file written code
+
+commit a571f278d661991c8ae92aa05e46f1ae9c1ef9d2
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 20:09:25 2022 +0800
+
+    Testing input text file for category 2 program
+
+commit 31e5d1a83b1e039977e8606006cd20266c6d883c
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 20:07:44 2022 +0800
+
+    Adding ModuleE2 by input using text file
+
+commit 07c3463923db0201032f8685ef5c622a5f730ace
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 19:50:16 2022 +0800
+
+    Initialoutput text file for category 2 programoutCategory2.txt
+
+commit bfbcd7770075ed0e6c2341806ab6ca4112acf058
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 19:50:01 2022 +0800
+
+    Initial input text file for category 2 program
+
+commit cfea12d5f8d1485e180c6ffbf6bb3dc8df883e13
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 19:41:20 2022 +0800
+
+    Convert var to float before conducting calculation
+
+commit bac4b82731760f10337cd38baf6d86b333474a0d
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 18:03:51 2022 +0800
+
+    Starting to create module test code
+
+commit 9d2a28396b0dcb77c068c96b8a7b35d877f992a7
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 18:02:59 2022 +0800
+
+    Modify ModuleC1 to indicate float number as valid number
+
+commit dcab216e84c17a6ade8319fd5708543dda544a45
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 17:30:56 2022 +0800
+
+    Testing output for the finalize production code
+
+commit 271f003640664b6bdfbf72aa25141a5bb14b1a61
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 17:29:14 2022 +0800
+
+    Adding digit checking function
+
+commit 16ba99dd5101f677d89bd18c0645d89ea4b10a93
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 17:17:59 2022 +0800
+
+    Testing output for Module D1
+
+commit bafc00044e72aa482fd8303b959d77f08fd2fb0a
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 17:17:50 2022 +0800
+
+    Testing input for Module D1
+
+commit fb19d60618a423b5853b4f61c7126981f6ff47d8
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 17:17:01 2022 +0800
+
+    Adding Module D1 and module input option
+
+commit 7890f4626d39cb915badfa7f457f8300c8de56ca
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 16:04:51 2022 +0800
+
+    Testing output for ModuleC1
+
+commit d35532fc6d2194c3143ececc77714895bc2e6ade
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 16:04:39 2022 +0800
+
+    Testing input for ModuleC1
+
+commit de168fa7eda056a81458fe453c14db846de0542d
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 16:03:47 2022 +0800
+
+    Changing ModuleE1 by removing newline escape
+
+commit 0b8b3f4e8c2c0da784d5476720b2235b62369a99
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 15:38:47 2022 +0800
+
+    Adding ModuleC1 in category 1 program
+
+commit 92c849a454f6146d054c7566031189588e3a8804
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 15:33:19 2022 +0800
+
+    Testing output for ModuleB1
+
+commit 5d9e706aa363f1035c4cd996fa91118d1337f193
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 15:33:09 2022 +0800
+
+    Testing input for ModuleB1
+
+commit 7c7bb655dbb8bf6d366212edddc77ed0cda6e8da
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 15:31:45 2022 +0800
+
+    Adding ModuleB1 function
+
+commit aeef4552c47bb6fe5039767c27453bcdc5ba14d9
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 14:36:15 2022 +0800
+
+    Testing output value of the text file
+
+commit 7babc1aed747d99faf3b1c91badfd2ec8cf98be3
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 14:35:37 2022 +0800
+
+    Adding ModuleF1 for output to a text file
+
+commit c76aa2df92f6641c8125e44d09e99706fe60a16d
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 14:26:51 2022 +0800
+
+    Initial output text file for category 1 program
+
+commit 32d59ed3e246c8abb12fc182ce0cf3e983b289b7
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 14:21:39 2022 +0800
+
+    Testing with given string with text file input
+
+commit 4cb09cd497285067cd6218aa5894a9cd869127e5
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 14:19:50 2022 +0800
+
+    Adding input function as ModuleE1
+
+commit e4591a75254a995ed96ab4ae46059a5b1344f53f
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 13:59:05 2022 +0800
+
+    Initial input text file for category 1 program
+
+commit 4e89d52205e13d0d2ee502ba07c37c3075f94d5e
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 13:56:37 2022 +0800
+
+    Created ModuleA1 with lower and upper case selection
+
+commit fbb23c46d289d5379721474dbe24718284abf670
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 13:10:52 2022 +0800
+
+    Adding Module A1 and main part of program
+
+commit 4152d4fbb5aaa37986c15b4297c309386739faf3
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 12:02:50 2022 +0800
+
+    Category 2 python program created
+
+commit cca25fb1003f1f0d8db08a4bcd1cfe486a9cd172
+Author: kiren123kiren <kiren12345kiren@gmail.com>
+Date:   Mon May 30 11:59:46 2022 +0800
+
+    Category 1 python program created
+
+commit 3da88d25142296210f0d9a75e1765d0e537cc88b
+Author: kiren123kiren <106466843+kiren123kiren@users.noreply.github.com>
+Date:   Sun May 29 17:04:18 2022 +0800
+
+    Initial commit
